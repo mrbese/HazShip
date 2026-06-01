@@ -157,4 +157,4 @@ Select a simulator and press `⌘R`.
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+Licensed under the PolyForm Noncommercial License 1.0.0 — free for noncommercial use; commercial use requires the author's permission. See [LICENSE](LICENSE) for details.
