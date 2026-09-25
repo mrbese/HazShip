@@ -4,8 +4,6 @@
 
 A native iOS app that instantly classifies lithium-ion battery shipments against the full regulatory matrix — 49 CFR, IATA DGR, and IMDG Code. Input your battery specs, get the exact UN number, packing instruction, required labels, documentation checklist, and carrier restrictions.
 
-Built to demonstrate deep fluency in HAZMAT logistics regulations for lithium battery transport at scale.
-
 <p align="center">
   <img src="docs/screenshot_form.png" alt="HazShip input form" width="300">
 </p>
