@@ -2,7 +2,7 @@
 
 **Lithium Battery HAZMAT Shipping Classification Lookup**
 
-A native iOS app that instantly classifies lithium-ion battery shipments against the full regulatory matrix — 49 CFR, IATA DGR, and IMDG Code. Input your battery specs, get the exact UN number, packing instruction, required labels, documentation checklist, and carrier restrictions.
+A native iOS app that instantly classifies lithium-ion battery shipments against the full regulatory matrix: 49 CFR, IATA DGR, and IMDG Code. Input your battery specs, get the exact UN number, packing instruction, required labels, documentation checklist, and carrier restrictions.
 
 <p align="center">
   <img src="docs/screenshot_form.png" alt="HazShip input form" width="300">
@@ -12,7 +12,7 @@ A native iOS app that instantly classifies lithium-ion battery shipments against
 
 ## Why This Exists
 
-Shipping lithium batteries is one of the most regulation-heavy operations in logistics. A single classification error — wrong UN number, wrong packing instruction, missing label — can result in shipment rejection, fines, or worse.
+Shipping lithium batteries is one of the most regulation-heavy operations in logistics. A single classification error (wrong UN number, wrong packing instruction, missing label) can result in shipment rejection, fines, or worse.
 
 HazShip encodes the entire regulatory decision tree into a fast, offline lookup tool:
 
@@ -73,7 +73,7 @@ Watt-Hours → Packing Section
 | Component | Technology |
 |-----------|-----------|
 | **UI** | SwiftUI (iOS 17+) |
-| **Architecture** | Engine pattern — pure functions, no state |
+| **Architecture** | Engine pattern: pure functions, no state |
 | **Design** | Dark mode, SF Symbols, custom design system |
 | **Data** | Fully offline, embedded regulatory data |
 | **Dependencies** | Zero. No third-party packages. |
@@ -114,10 +114,10 @@ HazShip/
 
 The classification logic is derived from:
 
-- [49 CFR §173.185](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-E/section-173.185) — Lithium cells and batteries
-- [IATA Dangerous Goods Regulations (DGR)](https://www.iata.org/en/publications/dgr/) — 66th Edition (2025)
-- [IMDG Code Amendment 42-24](https://www.imo.org/en/OurWork/Safety/Pages/DangerousGoods-default.aspx) — Maritime dangerous goods
-- [PHMSA Lithium Battery Guide](https://www.phmsa.dot.gov/lithium-batteries-training-resources) — Updated Nov 2024
+- [49 CFR §173.185](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-E/section-173.185): Lithium cells and batteries
+- [IATA Dangerous Goods Regulations (DGR)](https://www.iata.org/en/publications/dgr/): 66th Edition (2025)
+- [IMDG Code Amendment 42-24](https://www.imo.org/en/OurWork/Safety/Pages/DangerousGoods-default.aspx): Maritime dangerous goods
+- [PHMSA Lithium Battery Guide](https://www.phmsa.dot.gov/lithium-batteries-training-resources): Updated Nov 2024
 
 > **Disclaimer**: This is a reference tool. It is not a substitute for consulting the actual regulations or obtaining compliance certification. Always verify classification with your carrier and regulatory authority.
 
@@ -155,4 +155,4 @@ Select a simulator and press `⌘R`.
 
 ## License
 
-Licensed under the PolyForm Noncommercial License 1.0.0 — free for noncommercial use; commercial use requires the author's permission. See [LICENSE](LICENSE) for details.
+Licensed under the PolyForm Noncommercial License 1.0.0, free for noncommercial use; commercial use requires the author's permission. See [LICENSE](LICENSE) for details.
